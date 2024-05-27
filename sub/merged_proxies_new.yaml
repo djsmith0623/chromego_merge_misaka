@@ -47,8 +47,8 @@ proxies:
   - h3
   protocol: udp
   auth_str: dongtaiwang.com
-  up: 11
-  down: 55
+  up: 100
+  down: 1000
   hop_interval: 10
 - name: None_None_vless_21
   type: vless
@@ -192,8 +192,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - name: United States_Kansas City_ss_61
   type: ss
   server: 109.104.152.186
@@ -210,8 +210,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - name: United States_Kansas City_hysteria2_71
   type: hysteria2
   server: 109.104.152.89
@@ -221,8 +221,8 @@ proxies:
   - h3
   sni: www.bing.com
   skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  up: 100 Mbps
+  down: 1000 Mbps
 - name: United States_Kansas City_vless_81
   type: vless
   server: 109.104.152.101
@@ -245,8 +245,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - name: United States_Kansas City_ss_91
   type: ss
   server: 109.104.152.186
@@ -263,8 +263,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - cipher: chacha20-ietf-poly1305
   name: Taiwan_Taichung_ss_111
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
